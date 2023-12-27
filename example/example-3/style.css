@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.flex-container {
+  width: 800px;
+  min-height: 300px;
+  background-color: green;
+}
+.flex-container img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+/* Custom styles */
+.flex-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 1em;
+}
+.content {
+  flex: 1;
+}
